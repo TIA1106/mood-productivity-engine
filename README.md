@@ -51,7 +51,10 @@ EDA was used to:
 Key insights from EDA directly informed model expectations.
 
 ---
-
+## Notebooks
+- `eda.ipynb` – Data exploration and validation
+- `modeling.ipynb` – Model training and evaluation
+---
 ## 🤖 Models Used
 
 ### 1. Linear Regression (Baseline)
@@ -105,3 +108,18 @@ The app uses the **Random Forest model** for inference.
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
+### 2. (Optional) Generate dataset
+```
+python src/generate_data.py
+```
+### 3. Run streamlit App
+```
+python -m streamlit run app.py
+```
+Future Improvements
+
+1. Personalization using user-specific history
+2. Real-world data collection
+3. Time-series modeling of productivity over days
+4. Model explainability using SHAP values

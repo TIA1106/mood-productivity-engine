@@ -158,9 +158,12 @@ base_score = focus_level × 10
 ---
 
 ### Step 2: Sleep Adjustment
-sleep < 4 hrs → −25
+sleep < 4 hrs → −25 
+
 4–5 hrs → −15
+
 5–6 hrs → −8
+
 ≥ 6 hrs → 0
 
 ---
@@ -168,10 +171,15 @@ sleep < 4 hrs → −25
 ### Step 3: Mood Adjustment
 
 calm → +10
+
 happy → +5
+
 neutral → 0
+
 anxious → −10
+
 stressed → −15
+
 sad → −12
 
 ---
@@ -179,17 +187,24 @@ sad → −12
 ### Step 4: Task Suitability Adjustment (Examples)
 
 coding + calm → +8
+
 coding + anxious → −10
+
 creative + happy → +8
+
 routine tasks → 0
+
 
 ---
 
 ### Step 5: Music Adjustment
 
 instrumental + coding → +5
+
 lofi → +3
+
 lyrical + coding → −8
+
 silence + anxious → +6
 
 ---
